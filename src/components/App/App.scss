@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --size: 0.85rem;
+  --primary-font-color: hsl(180, 29%, 50%);
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: var(--size);
+  color: hsl(180, 29%, 50%);
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(180, 52%, 96%);
+  overflow: scroll;
+
+  .content {
+    margin: 50px 10vw 0 10vw;
+    justify-items: center;
+  }
+}

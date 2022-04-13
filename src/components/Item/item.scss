@@ -1,0 +1,15 @@
+.card {
+  background-color: white;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  @media (min-width: 700px) and (max-width: 1300px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 699px) {
+    display: block;
+  }
+}
