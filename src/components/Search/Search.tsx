@@ -13,7 +13,7 @@ const Search = () => {
   };
   useEffect(() => {
     const timeout = setTimeout(() => {
-      if (search.length > 3) dispatchSearch();
+      if (search.length > 4) dispatchSearch();
     }, 400);
     return () => clearTimeout(timeout);
   }, [search]);
